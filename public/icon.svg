@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#3a0715"/>
+      <stop offset="38%" stop-color="#1b040c"/>
+      <stop offset="72%" stop-color="#0b0207"/>
+      <stop offset="100%" stop-color="#020103"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff9d6"/>
+      <stop offset="18%" stop-color="#fef08a"/>
+      <stop offset="40%" stop-color="#facc15"/>
+      <stop offset="68%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fca5a5"/>
+      <stop offset="50%" stop-color="#f87171"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+    <linearGradient id="darkGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fef3c7"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#f59e0b" flood-opacity="0.55"/>
+    </filter>
+    <filter id="glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="9" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="110" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="212" fill="none" stroke="url(#gold)" stroke-width="12" opacity="0.95" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="184" fill="#14040c" stroke="url(#red)" stroke-width="6"/>
+  <circle cx="256" cy="256" r="152" fill="none" stroke="url(#darkGold)" stroke-width="2" opacity="0.9"/>
+
+  <g filter="url(#shadow)">
+    <text x="256" y="286" text-anchor="middle" font-size="170" font-weight="900" font-family="Arial Black, Impact, sans-serif" fill="url(#gold)" letter-spacing="3">KK</text>
+  </g>
+
+  <rect x="108" y="326" width="296" height="48" rx="24" fill="url(#red)" stroke="#fef3c7" stroke-width="3"/>
+  <text x="256" y="357" text-anchor="middle" font-size="22" font-weight="900" font-family="Arial Black, sans-serif" fill="#ffffff" letter-spacing="6">GAMING</text>
+
+  <circle cx="256" cy="96" r="15" fill="#10b981" stroke="#ffffff" stroke-width="3"/>
+</svg>

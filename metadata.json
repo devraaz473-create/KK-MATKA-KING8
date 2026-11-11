@@ -1,0 +1,6 @@
+{
+  "name": "The Royal Gaming System",
+  "description": "Complete Indian Jodi & Harup gaming system with live game play, instant 90x settlement, admin control panel, and point management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
